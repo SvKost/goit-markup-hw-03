@@ -21,6 +21,13 @@ ul {
   list-style-type: none;
 }
 
+/*Navigation-section*/
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
 .logo {
   color: var(--primary-brand-color);
   font-family: Raleway, sans-serif;
@@ -35,12 +42,18 @@ ul {
   color: var(--headings-color);
 }
 
+.nav-list {
+  display: flex;
+  gap: 40px;
+}
+
 .nav-link {
   color: var(--headings-color);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  display: flex;
 }
 
 .nav-link:hover,
