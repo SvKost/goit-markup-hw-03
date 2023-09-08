@@ -1,0 +1,136 @@
+:root {
+  --body-text-color: #434455;
+  --body-bg-color: #fff;
+  --bright_text-color: #f4f4fd;
+  --headings-color: #2e2f42;
+  --primary-brand-color: #4d5ae5;
+  --active-button-color: #404bbf;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--body-text-color);
+  background-color: var(--body-bg-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.logo {
+  color: var(--primary-brand-color);
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.logo-accent {
+  color: var(--headings-color);
+}
+
+.nav-link {
+  color: var(--headings-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--active-button-color);
+}
+
+.address-section {
+  font-style: normal;
+}
+
+.address-link {
+  color: var(--body-text-color);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: var(--active-button-color);
+}
+
+.hero-section,
+.footer {
+  background-color: var(--headings-color);
+}
+
+.hero-title {
+  color: var(--body-bg-color);
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+.button {
+  color: var(--body-bg-color);
+  background-color: var(--primary-brand-color);
+  font-family: inherit;
+  cursor: pointer;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--active-button-color);
+}
+
+.section-list-title {
+  color: var(--headings-color);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.team-section {
+  background-color: var(--bright_text-color);
+}
+
+.section-title {
+  color: var(--headings-color);
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  line-height: 1.11;
+  text-align: center;
+}
+
+.team-list {
+  background-color: var(--body-bg-color);
+}
+
+.footer-logo-accent {
+  color: var(--bright_text-color);
+}
+
+.footer-text {
+  color: var(--bright_text-color);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
