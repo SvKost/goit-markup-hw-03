@@ -41,12 +41,14 @@ ul {
 }
 
 /*Navigation-section*/
+.header {
+  border-bottom: 1px solid var(--portfolio-border-color);
+}
 
 .header-inner {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border-bottom: 1px solid var(--portfolio-border-color);
 }
 
 .header-menu {
