@@ -23,9 +23,17 @@ ul {
 
 /*Navigation-section*/
 
-.container {
+.header-inner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header-menu {
   display: flex;
   align-items: center;
+  gap: 24px;
+  justify-content: center;
 }
 
 .logo {
@@ -42,6 +50,11 @@ ul {
   color: var(--headings-color);
 }
 
+.contacts-list {
+  display: flex;
+  gap: 40px;
+}
+
 .nav-list {
   display: flex;
   gap: 40px;
@@ -53,7 +66,8 @@ ul {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  display: flex;
+  padding: 24px 0;
+  display: inline-block;
 }
 
 .nav-link:hover,
@@ -65,7 +79,7 @@ ul {
   font-style: normal;
 }
 
-.address-link {
+.contacts-link {
   color: var(--body-text-color);
   font-size: 16px;
   font-weight: 400;
@@ -73,10 +87,12 @@ ul {
   letter-spacing: 0.02em;
 }
 
-.address-link:hover,
-.address-link:focus {
+.contacts-link:hover,
+.contacts-link:focus {
   color: var(--active-button-color);
 }
+
+/*Hero-section*/
 
 .hero-section,
 .footer {
@@ -91,6 +107,7 @@ ul {
   letter-spacing: 0.02em;
   text-align: center;
 }
+
 .button {
   color: var(--body-bg-color);
   background-color: var(--primary-brand-color);
@@ -104,6 +121,21 @@ ul {
 .button:hover,
 .button:focus {
   background-color: var(--active-button-color);
+}
+
+/*Features-section*/
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .section-list-title {
