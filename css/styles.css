@@ -39,6 +39,7 @@ img {
 }
 
 .container {
+  max-width: 1440px;
 }
 
 /*Navigation-section*/
@@ -64,6 +65,7 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  padding: 24px 0;
 }
 
 .logo-accent {
@@ -105,6 +107,7 @@ img {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
 .contacts-link:hover,
@@ -144,6 +147,8 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  padding: 16px 32px;
+  border-radius: 4px;
 }
 
 .button:hover,
@@ -192,6 +197,8 @@ img {
   letter-spacing: 0.02em;
 }
 
+/*Team-section*/
+
 .team-section {
   background-color: var(--bright_text-color);
 }
@@ -204,10 +211,27 @@ img {
   text-transform: capitalize;
   line-height: 1.11;
   text-align: center;
+  margin-bottom: 72px;
+}
+
+.team-inner {
+  display: flex;
+  justify-content: center;
 }
 
 .team-list {
+  display: flex;
+  gap: 24px;
+}
+
+.team-block {
+  display: flex;
+}
+
+.team-item {
   background-color: var(--body-bg-color);
+  display: flex;
+  flex-direction: column;
 }
 
 .footer-logo-accent {
