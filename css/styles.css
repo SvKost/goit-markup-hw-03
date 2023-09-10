@@ -117,17 +117,19 @@ ul {
 
 /*Hero-section*/
 
+.hero-section {
+}
+
 .hero-inner {
   background-color: var(--headings-color);
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 188px 0 188px;
+  padding: 188px 0;
 }
 
 .hero-title {
   color: var(--body-bg-color);
-
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
@@ -145,9 +147,15 @@ ul {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
   margin-top: 0;
   padding: 16px 32px;
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .button:hover,
@@ -169,7 +177,7 @@ ul {
 }
 
 .features-item {
-  width: calc((100%-3 * 24px) / 3);
+  flex-basis: calc((100%-24px) / 3);
 }
 
 .feature {
