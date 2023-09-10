@@ -45,12 +45,6 @@ ul {
   border-bottom: 1px solid var(--portfolio-border-color);
 }
 
-.header-inner {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
 .header-menu {
   display: flex;
   align-items: center;
@@ -67,6 +61,7 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 
 .header-logo-accent {
