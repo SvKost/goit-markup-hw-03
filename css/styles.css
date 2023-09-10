@@ -45,6 +45,10 @@ ul {
   border-bottom: 1px solid var(--portfolio-border-color);
 }
 
+.header-inner {
+  display: flex;
+}
+
 .header-menu {
   display: flex;
   align-items: center;
