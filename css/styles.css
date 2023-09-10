@@ -126,6 +126,9 @@ img {
   padding: 188px 0;
 }
 
+.hero-inner {
+}
+
 .hero-title {
   color: var(--body-bg-color);
   font-size: 56px;
@@ -135,6 +138,8 @@ img {
   text-align: center;
   max-width: 496px;
   margin-bottom: 48px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .button {
@@ -151,6 +156,8 @@ img {
   height: 56px;
   border: none;
   margin-top: 0;
+  margin-right: auto;
+  margin-left: auto;
   padding: 16px 32px;
   border-radius: 4px;
   cursor: pointer;
@@ -209,6 +216,7 @@ img {
   line-height: 1.11;
   text-align: center;
   margin-bottom: 72px;
+  margin-top: 120px;
 }
 
 .team-section {
