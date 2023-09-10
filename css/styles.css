@@ -121,9 +121,6 @@ ul {
 
 /*Hero-section*/
 
-.hero-section {
-}
-
 .hero-inner {
   background-color: var(--headings-color);
   display: flex;
