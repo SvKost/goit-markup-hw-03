@@ -307,12 +307,12 @@ ul {
 
 /*Footer-section*/
 
+.footer {
+  padding: 100px 0;
+}
+
 .footer-inner {
   background-color: var(--headings-color);
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  padding: 100px 0;
 }
 
 .footer-logo {
@@ -324,7 +324,7 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .footer-logo-accent {
