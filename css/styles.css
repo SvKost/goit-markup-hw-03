@@ -34,14 +34,14 @@ ul {
   padding-left: 0;
 }
 
+img {
+  display: block;
+}
+
 .container {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-}
-
-.img {
-  display: block;
 }
 
 /*Navigation-section*/
