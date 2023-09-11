@@ -219,10 +219,10 @@ img {
 }
 
 .team-section {
+  padding: 120px 0;
 }
 
 .team-inner {
-  padding: 120px 0;
   background-color: var(--bright_text-color);
   display: flex;
   justify-content: center;
@@ -268,7 +268,7 @@ img {
 
 /*Portfolio-section*/
 
-.portfolio-inner {
+.portfolio-section {
   padding: 120px 0 120px 0;
 }
 
@@ -306,7 +306,7 @@ img {
 
 /*Footer-section*/
 
-.footer-inner {
+.footer {
   background-color: var(--headings-color);
   padding: 100px 0;
 }
