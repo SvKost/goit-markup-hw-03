@@ -24,6 +24,12 @@ p {
   margin: 0;
 }
 
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
 a {
   text-decoration: none;
 }
@@ -47,6 +53,20 @@ img {
   padding: 0 15px;
 }
 
+.section-list-title {
+  color: var(--headings-color);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+}
+
+.section-list {
+  display: flex;
+  gap: 24px;
+}
+
 /*Navigation-section*/
 .header {
   border-bottom: 1px solid var(--portfolio-border-color);
@@ -54,7 +74,7 @@ img {
 
 .header-inner {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -175,11 +195,6 @@ img {
   padding: 120px 0;
 }
 
-.features-list {
-  display: flex;
-  gap: 24px;
-}
-
 .features-item {
   width: calc((100% - 72px) / 4);
 }
@@ -197,15 +212,6 @@ img {
   overflow: hidden;
 }
 
-.section-list-title {
-  color: var(--headings-color);
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  margin-bottom: 8px;
-}
-
 /*Team-section*/
 
 .section-title {
@@ -220,20 +226,15 @@ img {
 }
 
 .team-section {
+  background-color: var(--bright_text-color);
   padding: 120px 0;
 }
 
 .team-inner {
-  background-color: var(--bright_text-color);
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-}
-
-.team-list {
-  display: flex;
-  gap: 24px;
 }
 
 .team-item {
@@ -251,19 +252,10 @@ img {
 }
 
 .team-list-title {
-  color: var(--headings-color);
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  margin-bottom: 8px;
   text-align: center;
 }
 
 .team-text {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   text-align: center;
 }
 
@@ -288,21 +280,6 @@ img {
   padding: 32px 16px;
   border: 1px solid var(--portfolio-border-color);
   border-top: none;
-}
-
-.portfolio-list-title {
-  color: var(--headings-color);
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  margin-bottom: 8px;
-}
-
-.portfolio-text {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
 }
 
 /*Footer-section*/
